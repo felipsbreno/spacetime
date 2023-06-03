@@ -16,4 +16,4 @@ app
       '🚀 HTTP server running on port ' + `http://localhost:${portServer}`
     );
   })
-  .catch((err) => console.error('Server not running 😥, cause ' + err));
+  .catch((err) => console.error('Server not running 😥, cause' + err));
