@@ -1,12 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "@rocketseat/eslint-config/react"],
-  "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true,
-        "parser": "flow"
-      }
-    ]
-  }
+  "extends": [
+    "next/core-web-vitals",
+    "@rocketseat/eslint-config/react"
+  ]
 }
