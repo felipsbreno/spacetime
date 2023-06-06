@@ -15,6 +15,7 @@ app.register(authRoutes)
 app
   .listen({
     port: portServer,
+    host: '0.0.0.0',
   })
   .then(() => {
     console.log(
