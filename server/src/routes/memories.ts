@@ -78,7 +78,7 @@ export async function memoriesRoutes(app: FastifyInstance) {
     return memory
   })
 
-  app.delete('/memories/:id', async (request) => {
+  app.delete('/memories/:id', async (request, response) => {
     const paramsSchema = z.object({
       id: z.string().uuid(),
     })
@@ -89,5 +89,7 @@ export async function memoriesRoutes(app: FastifyInstance) {
         id,
       },
     })
+
+    return response.send({ message: 'Memeorie deleted with success!' })
   })
 }
