@@ -32,13 +32,11 @@ export default function NewMemory() {
 
   async function loadMemories() {
     const token = await SecureStore.getItemAsync('token')
-
     const response = await api.get('/memories', {
       headers: {
         Authorization: `Bearer ${token}`,
       },
     })
-
     setMemories(response.data)
   }
 
