@@ -53,13 +53,6 @@ Aplicação de recordação de memórias, onde o usuário poderá adicionar à u
 <table>
   <tbody>
     <tr>
-      <td style="font-weight: bold"><code>/template</code></td>
-      <td>
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer"><code>HTML</code></a> -
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" rel="noopener noreferrer"><code>CSS</code></a> -
-        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><code>Javascript</code></a>
-      </td>
-    <tr>
       <td style="font-weight: bold">back-end<code>(/server)</code></td>
       <td>
         <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer"><code>Node.JS</code></a> -
@@ -98,8 +91,6 @@ Aplicação de recordação de memórias, onde o usuário poderá adicionar à u
 ## Layout
 
 - [`Trilha IGNITE`](https://www.figma.com/community/file/1240070456276424762)
-
-- [`Trilha DISCOVER`](https://www.figma.com/community/file/1240071097028170811)
 
 É necessário ter conta no [Figma](https://figma.com) para acessar os layouts.
 
