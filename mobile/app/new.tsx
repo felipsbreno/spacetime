@@ -22,7 +22,6 @@ export default function NewMemory() {
   const router = useRouter()
 
   const [preview, setPreview] = useState<string | null>(null)
-
   const [content, setContent] = useState('')
   const [isPublic, setIsPublic] = useState(false)
 
@@ -43,7 +42,6 @@ export default function NewMemory() {
 
   async function handleCreateMemory() {
     const token = await SecureStore.getItemAsync('token')
-
     let coverUrl = ''
 
     if (preview) {
@@ -60,7 +58,6 @@ export default function NewMemory() {
           'Content-Type': 'multipart/form-data',
         },
       })
-
       coverUrl = uploadResponse.data.fileUrl
     }
 
